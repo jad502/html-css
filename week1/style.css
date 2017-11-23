@@ -1,0 +1,19 @@
+body {
+    margin: 100px 400px 100px 400px;
+    background-color: rgb(196, 196, 196);
+    font-size: 1.5em;
+}
+#detales {
+    float: right;
+}
+#personal-pic {
+    width: 200px;
+}
+td {
+    border: solid 1px;
+}
+#body {
+    border: groove 5px;
+    padding: 30px;
+    background-color: white;
+}
