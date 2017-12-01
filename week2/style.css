@@ -70,7 +70,6 @@ p {
         justify-content: space-between;
     }
     #grid-flex .grid-item {
-        display: block;
         width: calc(50% - 5px);
         height: 800px;
     }
