@@ -72,7 +72,7 @@ p {
     #grid-flex .grid-item {
         display: block;
         width: calc(50% - 5px);
-        height: 600px;
+        height: 800px;
     }
     #grid-flex img {
         width: 100%;
