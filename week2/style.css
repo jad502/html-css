@@ -59,7 +59,7 @@ p {
         width: calc(50% - 10px);
         margin-right: 5px;
         margin-bottom: 5px;
-        height: 800px;
+        height: 700px;
         
     }
     #grid-floats .grid-item img {
@@ -81,7 +81,7 @@ p {
         display: block;
         overflow: hidden;
         width: calc(50% - 10px);
-        height: 800px;
+        height: 700px;
         margin-bottom: 5px;
 
     }
