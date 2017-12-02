@@ -1,0 +1,210 @@
+body {
+    background-image: url(https://image.freepik.com/free-vector/white-rhombus-pattern_1053-249.jpg)
+}
+h1 {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 4em;
+    color: #4f74c8;
+}
+h2 { 
+    text-align: center;
+    background-color: #4f74c8;
+    color: white;
+    border: solid #4f74c8 1px;
+    border-radius: 10px;
+    padding: 5px;
+    clear: left;
+}
+h3 {
+    text-align: center;
+    color: #4f74c8;
+    border-bottom: 1px solid #4f74c8;
+    padding-bottom: 10px;
+}
+p {
+    border-top: 1px solid #4f74c8;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    color: #4f74c8;
+}
+.grid-item {
+    display: block;
+    border: solid 1px #4f74c8;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.grid-item:hover {
+    background-color: #B0C4DE;
+    color: white;
+}
+.grid-item img {
+    border-radius: 20px;
+}
+#grid-flex {
+    display: block;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+    #grid-floats {
+        margin-left: -25px;
+    }
+    #grid-floats .grid-item {
+        display: block;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        width: calc(50% - 10px);
+        margin-right: 5px;
+        margin-bottom: 5px;
+        height: 700px;
+        
+    }
+    #grid-floats .grid-item img {
+        width: 100%;
+    }
+    #grid-floats .grid-item:first-child {
+        width: calc(100% - 10px);
+        font-size: 1.5em;
+        height: auto;
+    }
+    #grid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+        margin-right: 15px;
+        margin-left: -15px;
+
+    }
+    #grid-flex .grid-item {
+        display: block;
+        overflow: hidden;
+        width: calc(50% - 10px);
+        height: 700px;
+        margin-bottom: 5px;
+
+    }
+    #grid-flex .grid-item:first-child {
+        width: calc(100% - 5px);
+        font-size: 1.5em;
+        height: ;
+    }
+    #grid-flex .grid-item img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    #grid-floats .grid-item {
+        display: block;
+        float: left;
+        height: 500px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 18px;
+        overflow: hidden;
+        position: relative;
+        width: calc(33% - 30px);
+    }
+
+    
+    #grid-floats .grid-item img {
+        width: 100%;
+    }
+    #grid-floats .grid-item:first-child,
+    #grid-floats .grid-item:nth-child(2) {
+        width: 46%;
+        height: 500px;
+        margin-right: 10px;
+    }
+    
+    #grid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+    }
+    #grid-flex .grid-item {
+        width: calc(33% - 40px);
+        margin: 10px;
+        height: 510px;
+    }
+    #grid-flex img {
+        width: 100%;
+    }
+    #grid-flex .grid-item:first-child,
+    #grid-flex .grid-item:nth-child(2) {
+        width: calc(50% - 30px);
+        font-size: 1.5em;
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width : 1024px) {
+    h2 {
+        clear: left;
+    }
+    #grid-floats {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    #grid-floats .grid-item {
+        display: block;
+        float: left;
+        height: 500px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        padding: 5px;
+        overflow: hidden;
+        position: relative;
+        width: calc(25% - 60px);
+    }
+
+    #grid-floats .grid-item img {
+        width: 100%;
+    }
+    #grid-floats .grid-item:first-child {
+        width: calc(50% - 70px);
+        margin-right: 44px;
+        font-size:2.2em;
+        height: 1025px;
+    }
+
+
+    #grid-flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: space-between;
+    }
+    #grid-flex .grid-item {
+        width: calc(25% - 40px);
+        margin: 10px;
+        height: 520px;
+        padding: 5px;
+    }
+    #grid-flex img {
+        width: 100%;
+    }
+    #grid-flex .grid-item:first-child {
+        width: calc(50% - 33px);
+        font-size: 1.5em;
+        height: auto;
+    }
+    #grid-flex .grid-item:nth-child(2),
+    #grid-flex .grid-item:nth-child(3) {
+        height: auto;
+        font-size: 1.5em;
+    }
+    .grid-item:hover {
+        width: 500px;
+        height: 800px;
+    }
+
+    
+}
