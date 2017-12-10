@@ -3,10 +3,6 @@
 }
 
 .first-list {
-    font-size: 1.5em;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #01689b;
     height: auto;
@@ -28,23 +24,14 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-#Home {
-    margin-right: 25%;
-    margin-left: 15%;
-}
+
 
 .logo {
     position: relative;
 }
 #img-text {
-    position: absolute;
-    top: 200px;
-    left: 200px;
     text-align: left;
-    font-size: 1.5em;
     background-color: white;
-    padding: 20px;
-    padding-right: 40px;
     border: solid white 2px;
     border-radius: 5px;
 }
@@ -60,16 +47,12 @@
     color: #0d3f55;
 }
 #articles {
-    width: 75%;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    font-size: 1.3em;
 }
 #articles a {
     text-decoration: none;
-    width: calc(25% - 10px);
-    margin: 5px;
 }
 #articles a:hover {
     text-decoration: underline;
@@ -89,3 +72,340 @@ color: #01689b;
 background-color: #f3f3f3;
 padding-top: 25px;
 }
+#articles-2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    border-bottom: solid 1px #4e4c4c;
+}
+#articles-2 a {
+    text-decoration: none;
+}
+#articles-2 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+#articles-2 li {
+    display: block;
+}
+#articles-2 a h3 {
+color: #01689b;
+
+}
+#articles-2 a p {
+    color: black;
+}
+#Nieuws {
+    text-align: left;
+}
+#articles-3 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#articles-3 a {
+    text-decoration: none;
+}
+#articles-3 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+#articles-3 li {
+    display: block;
+}
+#articles-3 a h3 {
+color: #01689b;
+
+}
+#articles-3 a p {
+    color: black;
+}
+footer {
+    background-color: #01689b;
+}
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: white;
+}
+
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+#footer li {
+    display: block;
+}
+@media only screen and (min-width : 320px) and (max-width : 768px){
+    body {
+        background-image: url("images/sss.jpg");
+        background-repeat: no-repeat;
+        background-position: right 40% top 180px;
+        background-size: 101% 180px;
+        color: #f3f3f3;
+        padding: 0px;
+    }
+
+
+.first-list {
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+}
+.first-list a {
+    padding: 14px 16px;
+}
+#img-text {
+    margin-bottom: 15px;
+    font-size: 0.93rem;
+    line-height: 1.3rem;
+    width: 75%;
+    letter-spacing: 1px;
+}
+#articles {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 1em;
+}
+
+#articles a {
+    text-decoration: none;
+    width: 100%;
+    margin: 5px;
+}
+#articles-2 img {
+    width: 100%;
+}
+#articles-2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 1em;
+    border-bottom: solid 1px #4e4c4c;
+    padding-bottom: 100px;
+}
+#articles-2 a {
+    text-decoration: none;
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+#Nieuws {
+    width: 100%;
+}
+#articles-3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+#articles-3 a {
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 1em;
+}
+#footer strong {
+    font-size: 1.1em;
+}
+#footer-first {
+    padding-right: 180px;
+}
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+    body {
+        background-image: url("images/sss.jpg");
+        background-repeat: no-repeat;
+        background-position: right 40% top 152px;
+        background-size: 100% 180px;
+        color: #f3f3f3;
+        padding: 0px;
+    }
+
+.first-list {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+.first-list a {
+    padding: 14px 16px;
+}
+#img-text {
+    width: 35%;
+    margin-top: 30px;
+    margin-left: -200px;
+    margin-bottom: 15px;
+    font-size: 0.93rem;
+    line-height: 1.3rem;
+}
+#articles {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 1em;
+}
+
+#articles a {
+    text-decoration: none;
+    width: calc(50% - 25px);
+    margin: 5px;
+}
+#articles-2 img {
+    width: 100%;
+}
+#articles-2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 1em;
+    border-bottom: solid 1px #4e4c4c;
+    padding-bottom: 100px;
+}
+#articles-2 a {
+    text-decoration: none;
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+#Nieuws {
+    width: 100%;
+}
+#articles-3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+#articles-3 a {
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 1em;
+}
+#footer strong {
+    font-size: 1.1em;
+}
+
+}
+@media only screen and (min-width : 1024px) {
+    body {
+        background-image: url("images/sss.jpg");
+        background-repeat: no-repeat;
+        background-position: right 40% top 140px;
+        background-size: 101% 350px;
+        color: #f3f3f3;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #header-img {
+       width: 100%;
+       }
+   
+   .first-list {
+    margin: 0;
+    padding: 5px;
+    font-size: 1em;
+   }
+   .first-list a {
+    padding: 14px 16px;
+}
+   #img-text {
+    display: block;
+    border: hidden;
+    background-color: white;
+    width: 30%;
+    padding: 25px;
+    margin-left: -600px;
+    height: auto;
+    line-height: 1.5rem;
+    margin-bottom: 60px;
+   }
+   #articles {
+       width: 75%;
+       display: flex;
+       flex-wrap: wrap;
+       text-align: left;
+       font-size: 1.3em;
+   }
+   
+   #articles a {
+       text-decoration: none;
+       width: calc(25% - 25px);
+       margin: 5px;
+   }
+   #articles-2 img {
+       width: 100%;
+   }
+   #articles-2 {
+       width: 75%;
+       display: flex;
+       flex-wrap: wrap;
+       text-align: left;
+       font-size: 1.3em;
+       border-bottom: solid 1px #4e4c4c;
+       padding-bottom: 100px;
+   }
+   #articles-2 a {
+       text-decoration: none;
+       width: calc(33% - 50px);
+       margin: 5px;
+   }
+   #Nieuws {
+       width: 75%;
+   }
+   #articles-3 {
+       display: flex;
+       flex-wrap: wrap;
+       font-size: 1.3em;
+   }
+   #articles-3 a {
+       width: calc(33% - 10px);
+       margin: 5px;
+   }
+   
+   footer {
+       padding-top: 50px;
+       padding-bottom: 50px;
+   }
+   #footer {
+       display: flex;
+       flex-wrap: wrap;
+       width: 75%;
+       font-size: 1em;
+   }
+   #footer strong {
+       font-size: 1.5em;
+       padding-bottom: 10px;
+   }
+   #footer-first {
+    padding-right: 450px;
+}
+}
+
